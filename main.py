@@ -34,7 +34,6 @@ def transcribe_audio(audio_path):
 
 def create_subtitle_srt(transcript, srt_file_path):
     try:
-        subtitles = []
         lines = transcript.split('\n')
         current_time = 0
         subtitle_counter = 1
